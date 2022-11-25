@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "counter";
+    font-style: normal;
+    src: local('counter'), local('counter'),
+        url(fonts/digital_counter_7.ttf);
+}
+
+.main {
+    background-color: silver;
+    margin: 0 auto;
+    border: 5px silver solid;
+}
+.main-4 {
+    width:250px
+}
+
+.main-4 .board{padding:30px}
+.main-4 .start{
+    background-color: #5f5f5f;
+    border: none;
+    color: #fff;
+    padding: 3px 5px;
+}
+.main-8 {
+    background-color: silver;
+    margin: 0 auto;
+    width: 370px;
+    border: 5px silver solid;
+}
+.main-8 .medium{
+    background-color: #5f5f5f;
+    border: none;
+    color: #fff;
+    padding: 3px 5px;
+}
+.main-12 {
+    background-color: silver;
+    margin: 0 auto;
+    width: 550px;
+    border: 5px silver solid;
+}
+.main-12 .expert{
+    background-color: #5f5f5f;
+    border: none;
+    color: #fff;
+    padding: 3px 5px;
+}
+.header {
+    text-align: center;
+    border-left: 5px #808080 solid;
+    border-top: 5px #808080 solid;
+    border-right: 5px #ffffff solid;
+    border-bottom: 5px #ffffff solid;
+    padding-bottom: 7px;
+}
+
+.score {
+    display: inline-block;
+    height: 50px;
+    border: 3px #000 solid;
+    text-align: center;
+    font-family: "counter";
+    float: left;
+    font-size: 40px;
+    margin: 5px;
+    background-color: #000;
+    color: red
+}
+
+.restart {
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    background-size: initial !important;
+    background: url('img/restart.png');
+    background-size: 55px !important;
+    margin-top: 5px
+}
+
+.timer {
+    display: inline-block;
+    height: 50px;
+    border: 3px #000 solid;
+    font-family: "counter";
+    text-align: center;
+    float: right;
+    font-size: 40px;
+    margin: 5px;
+    background-color: #000;
+    color: red
+}
+
+.board {
+    border-left: 5px #808080 solid;
+    border-top: 5px #808080 solid;
+    border-right: 5px #ffffff solid;
+    border-bottom: 5px #ffffff solid;
+}
+hr{
+    height:0px;
+    color:silver
+}
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell{
+	border: 1px solid #999999;
+    height:43px;
+    width:43px;
+	display: inline-block;
+}
+.mine{
+    background: url('img/mine.png');
+}
+.flag{
+    background: url('img/flag.png');
+}
+.divTableCell span{
+    position: absolute;
+    text-align: center;
+    margin-left: 17px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.divTableCell-empty{
+    background-size: initial !important;
+    background: url('img/empty-cell.png');
+    background-size: 45px !important;
+    height:45px;
+    width:45px;
+    display:inline-block
+}
+.level{display:inline-block; font-size: 20px; margin-bottom:10px}
+button {font-size:20px; margin-right:10px}
