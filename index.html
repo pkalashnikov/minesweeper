@@ -1,12 +1,16 @@
 <html><head>
     <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
 </head>
 
-<body>
+<body onload="onInitGame(16) ">
+    
     <div class="main" >
+        <div class="level">Your level: </div>
+        <button class="start" onclick="onInitGame(16)">16</button><button class="medium" onclick="onInitGame(64)">64</button><button class="expert" onclick="onInitGame(144)">144</button>
         <div class="header">
-            <div class="score">123</div>
-            <div class="restart"></div>
+            <div class="score"></div>
+            <button class="restart" onclick="onInitGame()"></button>
             <div class="timer">123</div>
         </div>
         <hr>
@@ -14,38 +18,6 @@
             <div class="divTable">
             <div class="divTableBody">
             <div class="divTableRow">
-                <div class="divTableCell
-                "><span>2</span></div>
-                <div class="divTableCell
-                "><span>1</span></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
-                <div class="divTableCell
-                "></div>
             </div>
         </div>
         </div>
